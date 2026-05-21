@@ -1,0 +1,186 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+coverage/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.pyvenv/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# =========================
+# Node / JS / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug-storybook.log*
+
+.next/
+.nuxt/
+out-tsc/
+bazel-out/
+
+# =========================
+# Angular / frontend cache
+# =========================
+.angular/
+.angular/cache/
+.sass-cache/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+testem.log
+
+# =========================
+# IDEs / Editors
+# =========================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Java / JVM
+# =========================
+*.class
+*.jar
+*.war
+
+# =========================
+# Cache / temp
+# =========================
+.cache/
+.temp/
+.tmp/
+.ruff_cache/
+
+/tmp/
+connect.lock
+
+# =========================
+# Test / reports
+# =========================
+test-results/
+playwright-report/
+angular-app/test-results/
+
+# =========================
+# Build outputs (generic)
+# =========================
+dist/
+build/
+out/
+obj/
+bin/
+libpeerconnection.log
+
+# =========================
+# Secrets / env
+# =========================
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+secrets.json
+client_secret.json
+*.key
+*.pem
+*.crt
+
+# =========================
+# Project-specific / tooling
+# =========================
+.claude/
+.openclaude/
+.codex/
+.copilot/
+.opencode/
+.blackbox/
+
+.TODO/
+*TODO*
+
+monoRepo/
+
+# =========================
+# Logs / errors / misc
+# =========================
+**/.log_erros/
+*.md
+
+# =========================
+# Media files (optional rule - keep only if desired)
+# =========================
+*.mp3
+*.wav
+*.mkv
+*.mp4
+
+# =========================
+# Angular specific extras
+# =========================
+environments/*.ts
+
+# =========================
+# Misc
+# =========================
+typings/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_cache/
+.ipython/
+.profile_default/
+
+# =========================
+# R language
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+.Renviron
