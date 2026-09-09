@@ -5,7 +5,7 @@ title: "PR(#24)-Corrigir sincronização de submódulos no VS Code"
 branch: feature/corrigir-sincronizacao-de-submodulos-no-vs-code
 base: main
 extends: feature-07-corrigir-sincronizacao-de-submodulos-no-vs-code
-status: draft
+status: open
 ---
 
 ## Contexto
